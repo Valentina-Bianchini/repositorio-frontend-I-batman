@@ -66,17 +66,16 @@ section article{
     flex-direction:column;
     align-items:center;
     position: relative;
-    background: #f3f3f3;
+    background: #d4cec5;
     width: 300px;
     margin: 200px 0;
-    border-radius: 10px 16px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
     text-align: center;
 }
 
 article div.batifondo{
     height: 194px;
     width: 300px;
-    padding: 10px;
     background-image: url(../img/batman_background.png);
     background-size: cover;
     border-radius: 16px 16px 0px 0px;
@@ -92,14 +91,88 @@ article div i{
 article img{
     border-radius: 50%;
     width: 125px;
-
+    position: absolute;
+    bottom: 235px;
 }
 
-.bg.harley{
+article h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    position: relative;
+    top: 35px;
+}
+
+article p{
+    text-align: left;
+    padding: 15px;
+}
+
+article button{
+    padding: 15px 20px;
+    background: #00669F;
+    border:none;
+    color: #F3F3F3;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+article div.bg-harley{
+    height: 194px;
+    width: 300px;
     background-image: url(../img/harleyq_background.png);
     background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+    text-align: left;
 }
 
-.tarjeta{
-
+.foot{
+    display: flex;
+    align-items: row;
+    position: absolute;
+    width: 100%;
+    background: #00669F;
 }
+
+span h4{
+    display:flex;
+    background: #00669F;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #F3F3F3;
+    padding: 10px 10px 10px 0px;
+    position: relative;
+    width: 90%;
+    bottom: 0px;
+    margin:0px 120px 0px 0px;
+}
+
+.fab.fa-github{
+    background: #00669F;
+    color: #F3F3F3;
+    position: relative;
+    padding: 10px;
+    margin-top:5px;
+}
+
+
+.link{
+    background: #00669F;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #F3F3F3;
+    position: relative;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
