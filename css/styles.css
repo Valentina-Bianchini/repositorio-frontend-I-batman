@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+/*
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.descuentos{
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    padding: 1px 1px 1px 10px;
+    width:100%;
+    height: 38px;
+    background: #1CD1B0;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 29.9px;
+}
+
+.tag{
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    background: #1CD1B0;
+    padding:10px;
+}
+
+.titulo{
+    position:absolute;
+    top: 38px;
+    width:100%;
+    padding-left: 0rem;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+section{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section article{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    position: relative;
+    background: #f3f3f3;
+    width: 300px;
+    margin: 200px 0;
+    border-radius: 10px 16px 0px 0px;
+    text-align: center;
+}
+
+article div.batifondo{
+    height: 194px;
+    width: 300px;
+    padding: 10px;
+    background-image: url(../img/batman_background.png);
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+    text-align: left;
+}
+
+article div i{
+    font-size: 20px;
+    padding: 10px;
+    color: red;
+}
+
+article img{
+    border-radius: 50%;
+    width: 125px;
+
+}
+
+.bg.harley{
+    background-image: url(../img/harleyq_background.png);
+    background-size: cover;
+}
+
+.tarjeta{
+
+}
