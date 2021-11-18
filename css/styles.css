@@ -22,7 +22,8 @@ html, body {
     padding: 1px 1px 1px 10px;
     width:100%;
     height: 38px;
-    background: #1CD1B0;
+    background: #D1891C;
+    ;
 }
 
 h2{
@@ -36,7 +37,8 @@ h2{
     position: absolute;
     position: fixed;
     z-index: 1;
-    background: #1CD1B0;
+    background: #D1891C;
+    ;
     padding:10px;
 }
 
@@ -68,31 +70,33 @@ section article{
     position: relative;
     background: #d4cec5;
     width: 300px;
+    height: 580px;
     margin: 200px 0;
     border-radius: 16px 16px 0px 0px;
-    text-align: center;
 }
 
 article div.batifondo{
+    position: relative;
     height: 194px;
     width: 300px;
-    background-image: url(../img/batman_background.png);
+    background-image: url(../img/batifondo.png);
     background-size: cover;
     border-radius: 16px 16px 0px 0px;
-    text-align: left;
 }
 
 article div i{
-    font-size: 20px;
+    position: relative;
+    text-align: left;
+    font-size: 25px;
     padding: 10px;
     color: red;
 }
 
 article img{
+    position: absolute;
     border-radius: 50%;
     width: 125px;
-    position: absolute;
-    bottom: 235px;
+    bottom: 330px;
 }
 
 article h3{
@@ -101,72 +105,103 @@ article h3{
     text-transform: uppercase;
     padding-bottom: 0px;
     position: relative;
-    top: 35px;
+    top: 40px;
 }
 
 article p{
-    text-align: left;
+    position: relative;
+    bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
     padding: 15px;
 }
 
 article button{
+    position: relative;
+    bottom: 10px;
+    bottom: 0px;
     padding: 15px 20px;
     background: #00669F;
     border:none;
     color: #F3F3F3;
     text-align: center;
-    margin-bottom: 15px;
 }
 
-article div.bg-harley{
+article div.bg-mujer-maravilla{
     height: 194px;
     width: 300px;
-    background-image: url(../img/harleyq_background.png);
+    background-image: url(../img/fondo_mm.png);
     background-size: cover;
     border-radius: 16px 16px 0px 0px;
     text-align: left;
 }
 
+article div.superfondo{
+    position: relative;
+    height: 194px;
+    width: 300px;
+    background-image: url(../img/superfondo.png);
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
+article h3.titulo_hq{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    padding-bottom: 0px;
+    position: relative;
+    top: 40px;
+}
+
+article div.harley-fondo{
+    position: relative;
+    height: 194px;
+    width: 300px;
+    background-image: url(../img/harleyq_background.png);
+    background-size: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+
 .foot{
     display: flex;
-    align-items: row;
-    position: absolute;
     width: 100%;
+    height:20px;
     background: #00669F;
 }
 
 span h4{
-    display:flex;
+    position: relative;
+    margin:0px 120px 0px 0px;
     background: #00669F;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: normal;
-    text-align: left;
+    text-align: center;
     color: #F3F3F3;
-    padding: 10px 10px 10px 0px;
-    position: relative;
+    padding: 0px 10px 10px 0px;
     width: 90%;
-    bottom: 0px;
-    margin:0px 120px 0px 0px;
+    top: 10px;
 }
 
 .fab.fa-github{
-    background: #00669F;
-    color: #F3F3F3;
     position: relative;
-    padding: 10px;
-    margin-top:5px;
+    top: 10px;
+    background: #00669F;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 10px;
+    color: #F3F3F3;
 }
 
-
 .link{
+    position: relative;
+    text-align: center;
     background: #00669F;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
-    font-weight: normal;
+    font-weight: bold;
     color: #F3F3F3;
-    position: relative;
-    margin-right: 20px;
 }
 
 
